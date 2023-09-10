@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro OnePiece</title>
+
+    <link rel="stylesheet" href="./assets/css/padrao.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+    <link rel="shortcut icon" href="./assets/image/chapeuPalha.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="main">
+
+        <section class="banner__container">
+            <div class="banner__frase">
+                <img class="banner__logo" src="./assets/image/chapeuPalha.png" alt="Bandeira dos chapeu de palha"
+                    srcset="">
+                <h1 class="titulo">OnePiece Game</h1>
+            </div>
+        </section>
+
+        <section class="formulario__container">
+
+            <h2 class="formulario__titulo"> This is not a real online service! You know you need something like this in
+                your life to help you to realize your deepest dreams.<br />Sing up now and start to play.</h2>
+            <br />
+            <h2 class="formulario__titulo">You know what you want to.</h2>
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>OnePiece Sing Up</legend>
+
+                    <div class="formulario__floating">
+                        <input type="text" id="firstName" autocomplete="name" title="only accepted letters" class="formulario__entradas" minlength="2" maxlength="15" pattern="[A-zÁ-ù]*" placeholder=" " required>
+                        <label class="formulario__marcadores" for="firstName">FIRST NAME</label>
+                    </div>
+
+                    <div class="formulario__floating">
+                        <input type="text" id="lastName" autocomplete="family-name" data-tip="only accepted letters" class="formulario__entradas" minlength="2" maxlength="15" pattern="[A-zÁ-ù]*" placeholder=" " required>
+                        <label class="formulario__marcadores" for="lastName">LAST NAME</label>
+                    </div>
+
+                    <div class="formulario__floating">
+                        <input type="email" id="email" autocomplete="email" class="formulario__entradas" maxlength="25" placeholder=" " required>
+                        <label class="formulario__marcadores" for="email">EMAIL</label>
+                    </div>
+
+                    <div class="formulario__floating">
+                        <input type="tel" id="phoneNumber" autocomplete="tel" minlength="9" class="formulario__entradas" placeholder=" " required>
+                        <label class="formulario__marcadores" for="phoneNumber">PHONE NUMBER</label>
+                    </div>
+
+                    <div class="formulario__floating" >
+                        <input type="password" id="senha" autocomplete="new-password" class="formulario__entradas"  placeholder=" " required>
+                        <label class="formulario__marcadores" for="senha">PASSWORD</label>
+                    </div>
+
+                    <div class="formulario__floating">
+                        <input type="password" id="confirmarSenha" autocomplete="new-password" class="formulario__entradas" placeholder=" " required>
+                        <label class="formulario__marcadores" for="confirmarSenha">CONFIRM PASSWORD</label>
+                    </div>
+
+                </fieldset>
+                <button class="formulario__botao" type="submit">Create Account</button>
+            </form>
+
+            <p class="formulario__text">Already have an account? <a href="#" class="formulario__link">Log in</a></p>
+        </section>
+
+    </main>
+
+    <script src="./assets/javascript/main.js" type="module"></script>
+
+</body>
+
+</html>

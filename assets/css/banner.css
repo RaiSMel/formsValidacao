@@ -1,0 +1,50 @@
+.banner__container {
+    background: url(../image/onePiece.jpg) no-repeat center;
+    background-size: cover;
+    border-right: 4px solid var(--third-color);
+    height: 100vh;
+    overflow: hidden;
+    width: max(25vw, 350px);
+}
+
+.banner__frase {
+    align-items: center;
+    background: #010101cc;
+    color: var(--font-color);
+    column-gap: 20px;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding: 10px 0;
+    position: relative;
+    top: 40vh;
+}
+
+.banner__logo {
+    height: 70px;
+}
+
+.titulo {
+    text-align: justify;
+    font-family: OnePiece;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width:860px) {
+    .banner__container {
+        width: 100vw;
+        height: 15vh;
+        border: none;
+    }
+
+    .banner__frase {
+        top: 0;
+        height: 90%;
+    }
+
+    .banner__logo {
+        height: 50px;
+    }
+}
