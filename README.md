@@ -14,7 +14,7 @@
 
 ## Acesse o site remotamente
 
-<p>Para realizar o acesso do site <a href="https://raismel.github.io/formsValidation/">clique aqui</a></p>
+<p>Para realizar o acesso do site <a href="https://raismel.github.io/formsValidacao/">clique aqui</a></p>
 
 ## O projeto foi criado com a IDE
 
