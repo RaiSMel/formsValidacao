@@ -151,6 +151,7 @@
 @media screen and (max-width:860px) {
     .formulario__container {
         width: 100vw;
-        min-height: calc(100vh - 35vh);
+        min-height: 80vh;
     }
+
 }

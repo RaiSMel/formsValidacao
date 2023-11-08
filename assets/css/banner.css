@@ -2,7 +2,7 @@
     background: url(../image/onePiece.jpg) no-repeat center;
     background-size: cover;
     border-right: 4px solid var(--third-color);
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     width: max(25vw, 350px);
 }
@@ -36,6 +36,7 @@
     .banner__container {
         width: 100vw;
         height: 15vh;
+        min-height: 0;
         border: none;
     }
 
@@ -46,5 +47,6 @@
 
     .banner__logo {
         height: 50px;
+        
     }
 }
